@@ -19,6 +19,6 @@ class ChildComponent extends React.Component {
   }
 }
 ChildComponent.propTypes = {
-  user: PropTypes.string.isRequired
+  user: PropTypes.object.isRequired
 };
 export default ChildComponent;
