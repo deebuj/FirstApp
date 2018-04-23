@@ -37,7 +37,7 @@ class NewComponent extends React.Component {
         <h3>Load Data from API</h3>
         <ul>
           {this.state.users.map(function(user) {
-            return <li id={user.id}>{user.name}</li>;
+            return <li key={user.id}>{user.name}</li>;
           })}
         </ul>
 
