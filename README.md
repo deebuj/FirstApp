@@ -1,2 +1,0 @@
-# FirstApp
-Created with CodeSandbox
