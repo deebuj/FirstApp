@@ -13,7 +13,8 @@ class ChildComponent extends React.Component {
     return (
       <div>
         <div>This is child Component.</div>
-        <div>{user.firstName}</div>
+        <div>{user.name}</div>
+        <div>{user.username}</div>
       </div>
     );
   }

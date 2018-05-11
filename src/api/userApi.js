@@ -10,7 +10,8 @@ export default class UserAPI {
     ref.setUsers(users);
   }
   static async getPosts(ref, userid) {
-    ref.posts = await this.makeCall(`/posts?userId=` + userid);
+    let posts = await this.makeCall(`/posts?userId=` + userid);
+    ref.setPosts(posts);
   }
   static async makeCall(url) {
     try {
